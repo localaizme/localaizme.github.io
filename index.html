@@ -31,8 +31,8 @@
         <span></span>
       </button>
       <div class="nav-menu" id="nav-menu">
-        <a href="#services" class="nav-link">Leistungen</a>
-        <a href="#process" class="nav-link">Ablauf</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#process" class="nav-link">Prozess</a>
         <a href="#why" class="nav-link">Vorteile</a>
         <a href="#contact" class="nav-link nav-cta">Kontakt</a>
       </div>
@@ -47,8 +47,8 @@
         <h1 id="hero-title">Nutzen Sie KI mit Ihren Daten, ohne sie aus der Hand zu geben.</h1>
         <p class="hero-copy">Wir bringen KI sicher in Ihr Unternehmen – von der Idee bis zum produktiven Einsatz.</p>
         <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary">Projekt besprechen</a>
-          <a href="#services" class="btn btn-secondary">Leistungen ansehen</a>
+          <a href="#contact" class="btn btn-primary">Kontakt aufnehmen</a>
+          <a href="#services" class="btn btn-secondary">Services ansehen</a>
         </div>
         <dl class="hero-stats" aria-label="Projektkennzahlen">
           <div>
@@ -75,7 +75,7 @@
       <p>Wir verbinden Infrastruktur, Modellwissen und saubere Übergabe an dein Team. So entsteht keine Demo, sondern ein System, das im Arbeitsalltag Bestand hat.</p>
     </section>
 
-    <section class="service-grid" aria-label="Leistungen">
+    <section class="service-grid" aria-label="Services">
       <article class="service-card">
         <span class="card-number">01</span>
         <h3>Strategie & Use Cases</h3>
@@ -100,7 +100,7 @@
 
     <section id="process" class="section split-section">
       <div>
-        <p class="eyebrow">Ablauf</p>
+        <p class="eyebrow">Prozess</p>
         <h2>Ein klarer Weg in den produktiven Einsatz.</h2>
         <p>Wir starten klein und schnell. Danach skalieren wir entlang echter Nutzung.</p>
       </div>
@@ -122,14 +122,15 @@
 
     <section id="why" class="section why">
       <div class="why-panel">
-        <p class="eyebrow">Warum localaiz</p>
-        <h2>Mehr Kontrolle, weniger Reibung.</h2>
+        <div>
+          <p class="eyebrow">Vorteile</p>
+          <h2>Mehr Kontrolle, weniger Reibung.</h2>
+        </div>
         <ul class="check-list">
           <li>Sensible Daten bleiben in deinem Netzwerk und unter deiner Governance.</li>
           <li>Kosten werden planbarer, weil Fixpreise statt tokenbasierter Abrechnung eingesetzt werden.</li>
           <li>Shadow AI wird verhindert, weil attraktive und niederschwellige Alternativen bereitstehen.</li>
           <li>Dein Team bekommt Wissen, Dokumentation und Werkzeuge statt Blackbox-Abhängigkeit.</li>
-          <li>Modelle, Prompts und Datenquellen lassen sich an Fachbereiche und Rollen anpassen.</li>
         </ul>
       </div>
     </section>
@@ -137,25 +138,26 @@
     <section id="contact" class="section contact">
       <div class="contact-copy">
         <p class="eyebrow">Kontakt</p>
-        <h2>Lass uns prüfen, ob lokale KI für deinen nächsten Schritt passt.</h2>
-        <p>Beschreibe kurz Ausgangslage, Ziel und vorhandene Systeme. Wir melden uns mit einem sinnvollen nächsten Schritt.</p>
+        <h2>Bereit für den nächsten Schritt mit lokaler KI?</h2>
+        <p>Wir planen Ihren Einstieg – jetzt unverbindlich anfragen.</p>
       </div>
-      <form id="contact-form" class="contact-form" action="#" method="post">
-        <div class="field">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" autocomplete="name" required />
+      <div class="contact-people">
+        <div class="contact-person">
+          <img src="gerlicher.jpg" alt="Prof. Dr. Ansagar Gerlicher" class="contact-photo" />
+          <div class="contact-person-info">
+            <span class="contact-person-name">Prof. Dr. Ansagar Gerlicher</span>
+            <span class="contact-person-org">Hochschule der Medien</span>
+          </div>
         </div>
-        <div class="field">
-          <label for="email">E-Mail</label>
-          <input type="email" id="email" name="email" autocomplete="email" required />
+        <div class="contact-person">
+          <img src="fankhauser.jpg" alt="Prof. Dr. Thomas Fankhauser" class="contact-photo" />
+          <div class="contact-person-info">
+            <span class="contact-person-name">Prof. Dr. Thomas Fankhauser</span>
+            <span class="contact-person-org">Hochschule Heilbronn</span>
+          </div>
         </div>
-        <div class="field">
-          <label for="message">Worum geht es?</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Anfrage vorbereiten</button>
-        <p class="form-status" role="status" aria-live="polite"></p>
-      </form>
+        <a href="mailto:hello@localaiz.me" class="btn btn-primary contact-mailto">E-Mail an hello@localaiz.me</a>
+      </div>
     </section>
   </main>
 
